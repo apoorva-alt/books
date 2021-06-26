@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import RootRoute from './routes'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import { Button, CardHeader, Input, Card, Tabs, Tab } from '@material-ui/core';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <CardHeader style={{display:"flex" , justifyContent:"center", flexDirection:'column'}} title="Notes"/>
+    <RootRoute />
   </React.StrictMode>,
   document.getElementById('root')
 );
