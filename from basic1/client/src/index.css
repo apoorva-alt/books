@@ -1,0 +1,10 @@
+
+body {
+    background-color: blueviolet;
+    
+}
+
+* {
+    /* font-family: 'Noto Sans JP' !important; */
+    font-family: 'Heebo', sans-serif !important;
+}
