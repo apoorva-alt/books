@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.topnav-brand {
+    color: wheat;
+    text-decoration: none;
+    font-size: large;
+}
+
+.topnav-brand1 {
+    color: wheat;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 1%;
+}
+
+.topnav-brand1:hover {
+    color: rgb(179, 245, 240);
+    text-decoration: none;
+    font-size: large;
+    padding-top: 1%;
+}
+
+.topnav-right {
+    width: 90%;
+}
+
+.login {
+    width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.box {
+    background-color: rgb(212, 243, 205);
+}
+
+.box1 {
+    background-color: #101c29;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.icon {
+    color: blanchedalmond;
+    margin-left: 25%;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #512DA8;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 0;
+    margin-left: 100px;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pname {
+    color: black;
+    margin-left: 30%;
+}
+
+.dropdown1 {
+    background-color: rgb(248, 180, 226);
+    position: absolute;
+    margin-left: 84%;
+    margin-top: -3%;
+    z-index: 100;
+}
+
+.dropdown1 a {
+    width: 200px;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown1 a:hover {
+    background-color: #ddd;
+}
+
+.votes {
+    margin-left: 22%;
+    background-color: rgb(88, 71, 240);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.votes:disabled {
+    background-color: rgb(168, 168, 241);
+}
